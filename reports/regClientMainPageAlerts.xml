@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="regClientMainPageAlerts"
+    errors="1" failures="0" hostname="" id="" package="regClientMainPageAlerts" skipped="0"
+    tests="1" time="0.004000" timestamp="Wed, 19 Jul 2017 09:14:26 GMT">
+  
+    <testcase name="Пустое имя клиента" classname="regClientMainPageAlerts" time="0.004000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Reg Client Main Page Alerts / Пустое имя клиента]:
+
+  TypeError: [&quot;regClient&quot;,&quot;regClient2&quot;].url is not a function
+    at Object.module.exports.Пустое имя клиента (/home/agent/docs/autotests/nightwatchfs/tests/regClientMainPageAlerts.js:29:6)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

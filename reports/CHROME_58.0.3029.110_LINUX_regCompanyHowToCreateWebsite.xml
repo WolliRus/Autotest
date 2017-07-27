@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="9">
+
+  <testsuite name="regCompanyHowToCreateWebsite"
+    errors="0" failures="1" hostname="" id="" package="regCompanyHowToCreateWebsite" skipped="7"
+    tests="9" time="29.21" timestamp="Wed, 19 Jul 2017 14:59:31 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге" classname="regCompanyHowToCreateWebsite" time="19.10" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге. Название латиница" classname="regCompanyHowToCreateWebsite" time="10.11" assertions="1">  <failure message="Timed out while waiting for element &lt;.title.socials__title&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Положительный тест на Регистрацию на лендинге. Название латиница (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyHowToCreateWebsite.js:73:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название спецсимволы" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя латиница" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя спецсимволы" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email кирилица" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email спецсимволы" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль кирилица" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль спецсимволы" classname="regCompanyHowToCreateWebsite">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

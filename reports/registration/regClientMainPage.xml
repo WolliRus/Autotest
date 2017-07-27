@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="13">
+
+  <testsuite name="registration.regClientMainPage"
+    errors="1" failures="0" hostname="" id="" package="registration" skipped="12"
+    tests="13" time="0.006000" timestamp="Mon, 17 Jul 2017 14:47:17 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию" classname="registration.regClientMainPage" time="0.006000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Registration / Reg Client Main Page / Положительный тест на Регистрацию]:
+
+  TypeError: login.storage[0].setValue is not a function
+    at Object.module.exports.Положительный тест на Регистрацию (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regClientMainPage.js:40:6)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Тест поля fullname латиница" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля fullname спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля fullname комбинация" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля username латиница" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля username спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля username комбинация" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля email кирилица" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля email спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля пароль кирилица" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля пароль спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля адрес латиница" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля адрес спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

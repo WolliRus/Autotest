@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Parser.generateEmails"
+    errors="1" failures="0" hostname="" id="" package="Parser" skipped="0"
+    tests="1" time="0.1010" timestamp="Fri, 07 Jul 2017 06:23:53 GMT">
+  
+    <testcase name="Генерация логина" classname="Parser.generateEmails" time="0.1010" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Parser / Generate Emails / Генерация логина]:
+
+  Error: ENOENT: no such file or directory, open 'emails.txt'
+    at Error (native)
+    at Object.fs.openSync (fs.js:549:18)
+    at Object.fs.readFileSync (fs.js:397:15)
+    at Object.module.exports.Генерация логина (/home/agent/Документы/Автотесты/nightwatchfs/tests/Parser/generateEmails.js:16:22)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

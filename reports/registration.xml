@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="registration"
+    errors="1" failures="0" hostname="" id="" package="registration" skipped="0"
+    tests="1" time="0.006000" timestamp="Tue, 11 Jul 2017 06:00:37 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию" classname="registration" time="0.006000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Registration / Положительный тест на Регистрацию]:
+
+  TypeError: this.deleteLastEmail is not a function
+    at Object.module.exports.Положительный тест на Регистрацию (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:44:8)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="9">
+
+  <testsuite name="regCompanyLandingPage2"
+    errors="0" failures="1" hostname="" id="" package="regCompanyLandingPage2" skipped="7"
+    tests="9" time="29.45" timestamp="Wed, 19 Jul 2017 14:37:04 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге" classname="regCompanyLandingPage2" time="19.19" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге. Название латиница" classname="regCompanyLandingPage2" time="10.26" assertions="1">  <failure message="Timed out while waiting for element &lt;.title.socials__title&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Положительный тест на Регистрацию на лендинге. Название латиница (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyLandingPage2.js:73:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29</failure>
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage2/Положительный-тест-на-Регистрацию-на-лендинге.-Название-латиница_ERROR_Jul-19-2017-173734-GMT+0300.png]]</system-out>
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название спецсимволы" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя латиница" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя спецсимволы" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email кирилица" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email спецсимволы" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль кирилица" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль спецсимволы" classname="regCompanyLandingPage2">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

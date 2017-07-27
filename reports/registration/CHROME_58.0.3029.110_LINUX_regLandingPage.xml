@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="10"
+            failures="1"
+            tests="9">
+
+  <testsuite name="registration.regLandingPage"
+    errors="10" failures="1" hostname="" id="" package="registration" skipped="8"
+    tests="9" time="22.72" timestamp="Mon, 17 Jul 2017 06:32:25 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге" classname="registration.regLandingPage" time="22.72" assertions="3">
+<system-out>[[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093231-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093231-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093232-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093233-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093234-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093234-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093235-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093236-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093236-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093237-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093238-GMT+0300.png]]</system-out>
+    
+<system-out>[[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093242-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093243-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093244-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093245-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093246-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093247-GMT+0300.png]]</system-out>
+      <failure message="Timed out while waiting for element &lt;#delete_firm_and_user&gt; to be present for 5000 milliseconds.">    at Object.exports.command (/home/agent/Документы/Автотесты/nightwatchfs/features/deleteCompany.js:19:8)
+    at Object.F.command (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:73:8)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:65:10</failure>
+<system-out>[[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-17-2017-093248-GMT+0300.png]]</system-out>
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;a[href=&quot;https://zakupka.t3/?ref=d3179/reg/d2/&quot;]&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:32:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#fullname&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:33:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#username&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:34:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:35:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#password&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:36:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#adr&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:39:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#phone_0_code&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:40:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#phone_0_phone&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:41:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#save_firm_info&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:42:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;.cabinet-footer-id&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage.js:44:4)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название латиница" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название спецсимволы" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя латиница" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя спецсимволы" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email кирилица" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email спецсимволы" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль кирилица" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль спецсимволы" classname="registration.regLandingPage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

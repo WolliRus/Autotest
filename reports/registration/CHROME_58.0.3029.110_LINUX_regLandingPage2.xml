@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="5">
+
+  <testsuite name="registration.regLandingPage2"
+    errors="1" failures="0" hostname="" id="" package="registration" skipped="3"
+    tests="5" time="26.42" timestamp="Fri, 14 Jul 2017 14:59:33 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге. Имя спецсимволы" classname="registration.regLandingPage2" time="26.41" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Reg Landing Page2 / Положительный тест на Регистрацию на лендинге. email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге. email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage2.js:231:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге. email кирилица" classname="registration.regLandingPage2" time="0.01100" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Registration / Reg Landing Page2 / Положительный тест на Регистрацию на лендинге. email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге. email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration/regLandingPage2.js:231:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email спецсимволы" classname="registration.regLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль кирилица" classname="registration.regLandingPage2">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль спецсимволы" classname="registration.regLandingPage2">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="7">
+
+  <testsuite name="regClientMainPage"
+    errors="0" failures="1" hostname="" id="" package="regClientMainPage" skipped="5"
+    tests="7" time="20.02" timestamp="Wed, 19 Jul 2017 08:55:17 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию" classname="regClientMainPage" time="11.28" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Username латиница" classname="regClientMainPage" time="8.735" assertions="1">  <failure message="Timed out while waiting for element &lt;.slider__full-link&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Username латиница (/home/agent/docs/autotests/nightwatchfs/tests/regClientMainPage.js:58:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29</failure>
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regClientMainPage/Username-латиница_ERROR_Jul-19-2017-115537-GMT+0300.png]]</system-out>
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Username спецсимволы" classname="regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Email кирилица" classname="regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Password спецсимволы" classname="regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Password кирилица" classname="regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Пустое имя клиента" classname="regClientMainPage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

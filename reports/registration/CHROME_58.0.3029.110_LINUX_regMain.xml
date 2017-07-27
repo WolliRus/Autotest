@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="13">
+
+  <testsuite name="registration.regMain"
+    errors="0" failures="1" hostname="" id="" package="registration" skipped="12"
+    tests="13" time="51.45" timestamp="Fri, 14 Jul 2017 12:20:51 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию" classname="registration.regMain" time="51.45" assertions="2">
+<system-out>[[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regMain/Положительный-тест-на-Регистрацию_ERROR_Jul-14-2017-152138-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regMain/Положительный-тест-на-Регистрацию_ERROR_Jul-14-2017-152139-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regMain/Положительный-тест-на-Регистрацию_ERROR_Jul-14-2017-152140-GMT+0300.png]][[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regMain/Положительный-тест-на-Регистрацию_ERROR_Jul-14-2017-152141-GMT+0300.png]]</system-out>
+      <failure message="Timed out while waiting for element &lt;#login_&gt; to be present for 5000 milliseconds.">    at Object.exports.command (/home/agent/Документы/Автотесты/nightwatchfs/features/deleteCompany.js:14:8)
+    at Object.F.command (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:73:8)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/core/queue.js:65:10</failure>
+<system-out>[[ATTACHMENT|/home/agent/Документы/Автотесты/nightwatchfs/screens/registration/regMain/Положительный-тест-на-Регистрацию_ERROR_Jul-14-2017-152143-GMT+0300.png]]</system-out>
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Тест поля fullname латиница" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля fullname спецсимволы" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля fullname комбинация" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля username латиница" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля username спецсимволы" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля username комбинация" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля email кирилица" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля email спецсимволы" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля пароль кирилица" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля пароль спецсимволы" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля адрес латиница" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля адрес спецсимволы" classname="registration.regMain">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

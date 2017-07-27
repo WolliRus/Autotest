@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="1"
+            tests="9">
+
+  <testsuite name="regCompanyLandingPage"
+    errors="5" failures="1" hostname="" id="" package="regCompanyLandingPage" skipped="8"
+    tests="9" time="16.77" timestamp="Wed, 19 Jul 2017 09:48:56 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию на лендинге" classname="regCompanyLandingPage" time="16.77" assertions="3">
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124901-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124902-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124902-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124903-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124904-GMT+0300.png]]</system-out>
+    
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124910-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124912-GMT+0300.png]]</system-out>
+      <failure message="Timed out while waiting for element &lt;#delete_firm_and_user&gt; to be present for 5000 milliseconds.">    at Object.exports.command (/home/agent/docs/autotests/nightwatchfs/features/deleteCompany.js:19:8)
+    at Object.F.command (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:73:8)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:65:10</failure>
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/regCompanyLandingPage/Положительный-тест-на-Регистрацию-на-лендинге_ERROR_Jul-19-2017-124913-GMT+0300.png]]</system-out>
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#adr&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyLandingPage.js:43:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#phone_0_code&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyLandingPage.js:44:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#phone_0_phone&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyLandingPage.js:45:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#save_firm_info&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyLandingPage.js:46:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;.cabinet-footer-id&quot; using: css selector
+    at Object.module.exports.Положительный тест на Регистрацию на лендинге (/home/agent/docs/autotests/nightwatchfs/tests/regCompanyLandingPage.js:48:4)
+    at Module.call (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/autotests/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/autotests/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название латиница" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название спецсимволы" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя латиница" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя спецсимволы" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email кирилица" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email спецсимволы" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль кирилица" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль спецсимволы" classname="regCompanyLandingPage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

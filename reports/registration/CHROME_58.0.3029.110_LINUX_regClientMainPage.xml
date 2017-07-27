@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="6">
+
+  <testsuite name="registration.regClientMainPage"
+    errors="0" failures="1" hostname="" id="" package="registration" skipped="4"
+    tests="6" time="77.23" timestamp="Tue, 18 Jul 2017 09:39:27 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию" classname="registration.regClientMainPage" time="36.84" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Username латиница" classname="registration.regClientMainPage" time="40.39" assertions="3">
+
+    
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/registration/regClientMainPage/Username-латиница_ERROR_Jul-18-2017-124040-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/registration/regClientMainPage/Username-латиница_ERROR_Jul-18-2017-124041-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/registration/regClientMainPage/Username-латиница_ERROR_Jul-18-2017-124042-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/registration/regClientMainPage/Username-латиница_ERROR_Jul-18-2017-124043-GMT+0300.png]][[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/registration/regClientMainPage/Username-латиница_ERROR_Jul-18-2017-124044-GMT+0300.png]]</system-out>
+      <failure message="Timed out while waiting for element &lt;.delete_customer&gt; to be present for 5000 milliseconds.">    at Object.exports.command (/home/agent/docs/autotests/nightwatchfs/features/deleteClient.js:24:8)
+    at Object.F.command (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/api.js:274:31)
+    at Object.commandFn (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:73:8)
+    at CommandAction.onCommandComplete (/home/agent/docs/autotests/nightwatchfs/nightwatch/lib/core/queue.js:131:12)</failure>
+<system-out>[[ATTACHMENT|/home/agent/docs/autotests/nightwatchfs/screens/registration/regClientMainPage/Username-латиница_ERROR_Jul-18-2017-124045-GMT+0300.png]]</system-out>
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Username спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Email кирилица" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Password спецсимволы" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Password кирилица" classname="registration.regClientMainPage">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

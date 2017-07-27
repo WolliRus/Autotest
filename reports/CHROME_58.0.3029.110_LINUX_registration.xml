@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="22">
+
+  <testsuite name="registration"
+    errors="1" failures="0" hostname="" id="" package="registration" skipped="14"
+    tests="22" time="601.4" timestamp="Thu, 13 Jul 2017 14:32:31 GMT">
+  
+    <testcase name="Положительный тест на Регистрацию" classname="registration" time="86.38" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля fullname латиница" classname="registration" time="97.29" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля fullname спецсимволы" classname="registration" time="99.60" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля fullname комбинация" classname="registration" time="70.06" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля username латиница" classname="registration" time="89.69" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля username спецсимволы" classname="registration" time="85.96" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля username комбинация" classname="registration" time="72.37" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Тест поля email кирилица" classname="registration" time="0.004000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Registration / Тест поля email кирилица]:
+
+  ReferenceError: randomNumberEmail is not defined
+    at Object.module.exports.Тест поля email кирилица (/home/agent/Документы/Автотесты/nightwatchfs/tests/registration.js:284:46)
+    at Module.call (/home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/Документы/Автотесты/nightwatchfs/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:796:13)
+    at /home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:137:13)
+    at flush (/home/agent/Документы/Автотесты/nightwatchfs/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Тест поля email спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля пароль кирилица" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля пароль спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля адрес латиница" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Тест поля адрес спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название латиница" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Название спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя латиница" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Имя спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email кирилица" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. email спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль кирилица" classname="registration">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Положительный тест на Регистрацию на лендинге. Пароль спецсимволы" classname="registration">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
