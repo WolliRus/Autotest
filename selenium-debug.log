@@ -1,63 +1,25 @@
-22:28:36.907 INFO - Launching a standalone Selenium Server
-22:28:36.947 INFO - Java: Oracle Corporation 25.121-b13
-22:28:36.947 INFO - OS: Windows 10 10.0 amd64
-22:28:36.952 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-22:28:36.984 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-22:28:36.985 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-22:28:36.989 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
-registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-22:28:36.989 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-22:28:36.990 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-22:28:37.051 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-22:28:37.051 INFO - Selenium Server is up and running
-22:28:37.224 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sandbox, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-22:28:37.230 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sandbox, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 1799
+12:43:12.545 INFO - Launching a standalone Selenium Server
+12:43:12.567 INFO - Java: Oracle Corporation 25.131-b11
+12:43:12.567 INFO - OS: Linux 4.4.0-53-generic amd64
+12:43:12.575 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+12:43:12.621 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+12:43:12.622 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+12:43:12.622 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:43:12.622 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:43:12.623 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+12:43:12.623 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+12:43:12.624 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+12:43:12.657 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+12:43:12.657 INFO - Selenium Server is up and running
+12:43:12.973 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Sandbox, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:43:12.982 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Sandbox, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 5795
 Only local connections are allowed.
-22:28:39.326 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sandbox, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-22:28:39.336 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data) {
-
-     url = "tomaskz.t3"
-
-     switch (url) {
-       case "satom.": ref = "/?ref=d4079";
-       break;
-       case "zakupka.": ref = "/?ref=d3179";
-         break;
-       case "tomas.by": ref = "/?ref=d4079";
-         break;
-       case "tomas.kz": ref = "/?ref=d4195";
-         break;
-       default: ref = '';
-     }
-
-     if (needRef = true) {
-       return url + ref
-     } else {
-       return url
-     }
-   }.apply(window, passedArgs);, []])
-22:28:39.355 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (data) {
-
-     url = "tomaskz.t3"
-
-     switch (url) {
-       case "satom.": ref = "/?ref=d4079";
-       break;
-       case "zakupka.": ref = "/?ref=d3179";
-         break;
-       case "tomas.by": ref = "/?ref=d4079";
-         break;
-       case "tomas.kz": ref = "/?ref=d4195";
-         break;
-       default: ref = '';
-     }
-
-     if (needRef = true) {
-       return url + ref
-     } else {
-       return url
-     }
-   }.apply(window, passedArgs);, []]
-22:28:39.360 INFO - Executing: [delete session: 9f29cd57-b92a-4a9c-bd8c-a5dad7d1a91b])
-22:28:40.135 INFO - Done: [delete session: 9f29cd57-b92a-4a9c-bd8c-a5dad7d1a91b]
+12:43:13.786 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Sandbox, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:43:13.812 INFO - Executing: [get: http://google.com])
+12:43:15.807 INFO - Done: [get: http://google.com]
+12:43:15.813 INFO - Executing: [delete session: ec0827d2-f434-41c5-8c2d-e8d24c1e4323])
+12:43:15.880 INFO - Done: [delete session: ec0827d2-f434-41c5-8c2d-e8d24c1e4323]

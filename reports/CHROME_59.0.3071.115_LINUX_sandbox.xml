@@ -5,9 +5,9 @@
 
   <testsuite name="sandbox"
     errors="0" failures="0" hostname="" id="" package="sandbox" skipped="0"
-    tests="1" time="1.094" timestamp="Wed, 26 Jul 2017 10:06:01 GMT">
+    tests="1" time="3.170" timestamp="Fri, 28 Jul 2017 09:43:12 GMT">
   
-    <testcase name="Проверка появления заказа в кабинете клиента" classname="sandbox" time="1.094" assertions="0">
+    <testcase name="Тестовая дичь" classname="sandbox" time="3.170" assertions="0">
     </testcase>
   
   
