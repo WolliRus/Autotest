@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="pattern"
+    errors="2" failures="1" hostname="" id="" package="pattern" skipped="0"
+    tests="1" time="9.260" timestamp="Fri, 28 Jul 2017 11:57:49 GMT">
+  
+    <testcase name="Написать компании c логином, кирилица" classname="pattern" time="9.260" assertions="4">
+
+    
+
+    
+<system-out>[[ATTACHMENT|/home/agent/docs/Autotest/screens/pattern/Написать-компании-c-логином,-кирилица_ERROR_Jul-28-2017-145757-GMT+0300.png]]</system-out>
+      <failure message="Testing if element &lt;#cabinet-report-block&gt;span&gt; contains text: &quot;Письмо отправлено.&quot;. Element could not be located.">    at Object.&lt;anonymous&gt; (/home/agent/docs/Autotest/tests/pattern.js:46:15)
+    at Object.&lt;anonymous&gt; (/home/agent/docs/Autotest/nightwatch/lib/api/element-commands.js:346:18)
+    at HttpRequest.&lt;anonymous&gt; (/home/agent/docs/Autotest/nightwatch/lib/index.js:366:18)
+    at HttpRequest.&lt;anonymous&gt; (/home/agent/docs/Autotest/nightwatch/lib/index.js:393:15)
+    at IncomingMessage.&lt;anonymous&gt; (/home/agent/docs/Autotest/nightwatch/lib/http/request.js:168:16)</failure>
+<system-out>[[ATTACHMENT|/home/agent/docs/Autotest/screens/pattern/Написать-компании-c-логином,-кирилица_ERROR_Jul-28-2017-145758-GMT+0300.png]]</system-out>
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#cabinet-report-block&gt;span&quot; using: css selector
+    at Object.module.exports.Написать компании c логином, кирилица (/home/agent/docs/Autotest/tests/pattern.js:45:4)
+    at Module.call (/home/agent/docs/Autotest/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/Autotest/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/home/agent/docs/Autotest/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/home/agent/docs/Autotest/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/home/agent/docs/Autotest/node_modules/q/q.js:796:13)
+    at /home/agent/docs/Autotest/node_modules/q/q.js:556:49
+    at runSingle (/home/agent/docs/Autotest/node_modules/q/q.js:137:13)
+    at flush (/home/agent/docs/Autotest/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#cabinet-report-block&gt;span&quot; using: css selector
+    at command (/home/agent/docs/Autotest/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/home/agent/docs/Autotest/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/home/agent/docs/Autotest/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/home/agent/docs/Autotest/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:73:8)
+    at /home/agent/docs/Autotest/nightwatch/lib/core/queue.js:65:10
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
