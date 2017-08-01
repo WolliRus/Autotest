@@ -43,7 +43,6 @@ tags: ['testrun'],
   })
   .end()
 },
-*/
 'Проверяем, что при отсутствии цены кнопка становится заказать товар' : function (browser) {
   browser
   .url(url + "/p/174490-anti-hcv-markery-virusnogo-gepatita-s/")
@@ -54,5 +53,6 @@ tags: ['testrun'],
   })
   .end()
 },
-
+// test
+*/
 }

@@ -2,3 +2,4 @@
 *.jar
 chromedriver
 *.json
+nightwatch.json

@@ -1,39 +1,39 @@
-16:44:02.002 INFO - Launching a standalone Selenium Server
-16:44:02.025 INFO - Java: Oracle Corporation 25.131-b11
-16:44:02.025 INFO - OS: Linux 4.4.0-53-generic amd64
-16:44:02.032 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-16:44:02.071 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
-registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-16:44:02.071 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
-registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-16:44:02.072 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-16:44:02.072 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-16:44:02.073 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
-registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-16:44:02.073 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-16:44:02.073 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-16:44:02.112 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-16:44:02.112 INFO - Selenium Server is up and running
-16:44:02.321 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-16:44:02.328 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 12167
+19:20:57.789 INFO - Launching a standalone Selenium Server
+19:20:57.833 INFO - Java: Oracle Corporation 25.121-b13
+19:20:57.833 INFO - OS: Windows 10 10.0 amd64
+19:20:57.838 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+19:20:57.871 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:20:57.871 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+19:20:57.876 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
+19:20:57.876 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+19:20:57.876 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+19:20:57.943 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+19:20:57.943 INFO - Selenium Server is up and running
+19:20:58.128 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+19:20:58.134 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 13050
 Only local connections are allowed.
-16:44:03.106 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-16:44:03.121 INFO - Executing: [get: http://tomaskz.t3/p/174490-anti-hcv-markery-virusnogo-gepatita-s/])
-16:44:05.160 INFO - Done: [get: http://tomaskz.t3/p/174490-anti-hcv-markery-virusnogo-gepatita-s/]
-16:44:05.170 INFO - Executing: [maximise window])
-16:44:05.317 INFO - Done: [maximise window]
-16:44:05.323 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
-16:44:05.394 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
-16:44:05.403 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on LINUX (54997594cca5b69d09f233a85cdbfdb1)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
-16:44:05.435 INFO - Done: [get text: 0 [[ChromeDriver: chrome on LINUX (54997594cca5b69d09f233a85cdbfdb1)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
-16:44:05.438 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
-16:44:05.446 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
-16:44:05.449 INFO - Executing: [click: 0 [[ChromeDriver: chrome on LINUX (54997594cca5b69d09f233a85cdbfdb1)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
-16:44:05.625 INFO - Done: [click: 0 [[ChromeDriver: chrome on LINUX (54997594cca5b69d09f233a85cdbfdb1)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
-16:44:05.641 INFO - Executing: [find elements: By.cssSelector: #send_feedback_form])
-16:44:05.789 INFO - Done: [find elements: By.cssSelector: #send_feedback_form]
-16:44:05.793 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on LINUX (54997594cca5b69d09f233a85cdbfdb1)] -> css selector: #send_feedback_form]])
-16:44:05.819 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on LINUX (54997594cca5b69d09f233a85cdbfdb1)] -> css selector: #send_feedback_form]]
-16:44:05.823 INFO - Executing: [delete session: f6bda6e9-594e-4e9d-9e1d-856a3ad99c30])
-16:44:05.893 INFO - Done: [delete session: f6bda6e9-594e-4e9d-9e1d-856a3ad99c30]
+19:21:00.233 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+19:21:00.241 INFO - Executing: [get: http://tomaskz.t3/p/174490-anti-hcv-markery-virusnogo-gepatita-s/])
+19:21:03.319 INFO - Done: [get: http://tomaskz.t3/p/174490-anti-hcv-markery-virusnogo-gepatita-s/]
+19:21:03.323 INFO - Executing: [maximise window])
+19:21:04.458 INFO - Done: [maximise window]
+19:21:04.462 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
+19:21:04.485 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
+19:21:04.488 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on XP (47f6ccb1863b63684efd6e5bfb38d5a2)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
+19:21:04.507 INFO - Done: [get text: 0 [[ChromeDriver: chrome on XP (47f6ccb1863b63684efd6e5bfb38d5a2)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
+19:21:04.511 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
+19:21:04.517 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
+19:21:04.519 INFO - Executing: [click: 0 [[ChromeDriver: chrome on XP (47f6ccb1863b63684efd6e5bfb38d5a2)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
+19:21:05.448 INFO - Done: [click: 0 [[ChromeDriver: chrome on XP (47f6ccb1863b63684efd6e5bfb38d5a2)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
+19:21:05.455 INFO - Executing: [find elements: By.cssSelector: #send_feedback_form])
+19:21:05.489 INFO - Done: [find elements: By.cssSelector: #send_feedback_form]
+19:21:05.991 INFO - Executing: [find elements: By.cssSelector: #send_feedback_form])
+19:21:05.997 INFO - Done: [find elements: By.cssSelector: #send_feedback_form]
+19:21:06.500 INFO - Executing: [find elements: By.cssSelector: #send_feedback_form])
+19:21:06.506 INFO - Done: [find elements: By.cssSelector: #send_feedback_form]
+19:21:06.508 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (47f6ccb1863b63684efd6e5bfb38d5a2)] -> css selector: #send_feedback_form]])
+19:21:06.522 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (47f6ccb1863b63684efd6e5bfb38d5a2)] -> css selector: #send_feedback_form]]
+19:21:06.525 INFO - Executing: [delete session: 6eb6a016-8c53-4053-9474-49173cbff7b5])
+19:21:07.269 INFO - Done: [delete session: 6eb6a016-8c53-4053-9474-49173cbff7b5]
