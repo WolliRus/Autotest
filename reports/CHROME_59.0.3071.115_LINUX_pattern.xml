@@ -5,9 +5,11 @@
 
   <testsuite name="pattern"
     errors="0" failures="0" hostname="" id="" package="pattern" skipped="0"
-    tests="1" time="3.720" timestamp="Tue, 01 Aug 2017 13:44:02 GMT">
+    tests="1" time="5.623" timestamp="Wed, 02 Aug 2017 08:39:04 GMT">
   
-    <testcase name="Проверяем, что при отсутствии цены кнопка становится заказать товар" classname="pattern" time="3.720" assertions="2">
+    <testcase name="Купить, товар с вариантами" classname="pattern" time="5.623" assertions="3">
+
+    
 
     
 
