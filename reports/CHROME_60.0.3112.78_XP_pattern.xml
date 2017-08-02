@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<testsuites errors="0" 
+            failures="0" 
+            tests="1"> 
+ 
+  <testsuite name="pattern" 
+    errors="0" failures="0" hostname="" id="" package="pattern" skipped="0" 
+    tests="1" time="9.250" timestamp="Tue, 01 Aug 2017 16:20:57 GMT"> 
+   
+    <testcase name="Проверяем, что при отсутствии цены кнопка становится заказать товар" classname="pattern" time="9.250" assertions="2"> 
+ 
+     
+ 
+     
+    </testcase> 
+   
+   
+  </testsuite> 
+</testsuites> 

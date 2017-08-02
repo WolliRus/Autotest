@@ -43,6 +43,7 @@ tags: ['testrun'],
   })
   .end()
 },
+<<<<<<< HEAD
 */
 'Проверяем, что при отсутствии цены кнопка становится заказать товар' : function (browser) {
   browser
@@ -55,4 +56,5 @@ tags: ['testrun'],
   .end()
 },
 
+// test
 }
