@@ -1,49 +1,37 @@
-14:27:00.560 INFO - Launching a standalone Selenium Server
-14:27:00.595 INFO - Java: Oracle Corporation 25.131-b11
-14:27:00.596 INFO - OS: Linux 4.4.0-53-generic amd64
-14:27:00.610 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-14:27:00.676 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+14:52:02.391 INFO - Launching a standalone Selenium Server
+14:52:02.411 INFO - Java: Oracle Corporation 25.131-b11
+14:52:02.411 INFO - OS: Linux 4.4.0-53-generic amd64
+14:52:02.420 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+14:52:02.473 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:27:00.676 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+14:52:02.473 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:27:00.677 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:27:00.677 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:27:00.678 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+14:52:02.473 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:52:02.473 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:52:02.474 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-14:27:00.679 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-14:27:00.679 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-14:27:00.739 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-14:27:00.739 INFO - Selenium Server is up and running
-14:27:00.984 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-14:27:00.999 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 8063
+14:52:02.475 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:52:02.475 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:52:02.513 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+14:52:02.514 INFO - Selenium Server is up and running
+14:52:02.745 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+14:52:02.753 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 7798
 Only local connections are allowed.
-14:27:01.898 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-14:27:01.908 INFO - Executing: [get: http://tomaskz.t3/p/22128544-tovar-s-variantami/])
-14:27:08.636 INFO - Done: [get: http://tomaskz.t3/p/22128544-tovar-s-variantami/]
-14:27:08.646 INFO - Executing: [maximise window])
-14:27:08.801 INFO - Done: [maximise window]
-14:27:08.807 INFO - Executing: [find element: By.cssSelector: .b-product__selector-attribute-variants>ul>li:first-child])
-14:27:08.859 INFO - Done: [find element: By.cssSelector: .b-product__selector-attribute-variants>ul>li:first-child]
-14:27:08.871 INFO - Executing: [click: 0 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: .b-product__selector-attribute-variants>ul>li:first-child]])
-14:27:08.991 INFO - Done: [click: 0 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: .b-product__selector-attribute-variants>ul>li:first-child]]
-14:27:08.999 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
-14:27:09.024 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
-14:27:09.032 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
-14:27:09.066 INFO - Done: [get text: 1 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
-14:27:09.072 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
-14:27:09.093 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
-14:27:09.096 INFO - Executing: [click: 1 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
-14:27:09.207 INFO - Done: [click: 1 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
-14:27:09.227 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
-14:27:09.277 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
-14:27:09.299 INFO - Executing: [find element: By.cssSelector: #cabinet-report-block-close-link])
-14:27:09.356 INFO - Done: [find element: By.cssSelector: #cabinet-report-block-close-link]
-14:27:09.384 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: #cabinet-report-block-close-link]])
-14:27:10.385 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: #cabinet-report-block-close-link]]
-14:27:10.389 INFO - Executing: [find elements: By.cssSelector: #postavshik>div])
-14:27:10.407 INFO - Done: [find elements: By.cssSelector: #postavshik>div]
-14:27:10.410 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: #postavshik>div]])
-14:27:10.431 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on LINUX (44a4c1f7323854551e94c08b6960d989)] -> css selector: #postavshik>div]]
-14:27:10.435 INFO - Executing: [delete session: 394c1dee-39fa-453c-ab9b-1bf7bbb1a3d4])
-14:27:10.503 INFO - Done: [delete session: 394c1dee-39fa-453c-ab9b-1bf7bbb1a3d4]
+14:52:03.520 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+14:52:03.560 INFO - Executing: [get: http://tomaskz.t3/p/22128544-tovar-s-variantami/])
+14:52:05.011 INFO - Done: [get: http://tomaskz.t3/p/22128544-tovar-s-variantami/]
+14:52:05.023 INFO - Executing: [maximise window])
+14:52:05.157 INFO - Done: [maximise window]
+14:52:05.163 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
+14:52:05.217 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
+14:52:05.225 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
+14:52:05.248 INFO - Done: [get text: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
+14:52:05.252 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
+14:52:05.259 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
+14:52:05.262 INFO - Executing: [click: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
+14:52:05.329 INFO - Done: [click: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
+14:52:05.354 INFO - Executing: [find elements: By.cssSelector: .p_error])
+14:52:05.389 INFO - Done: [find elements: By.cssSelector: .p_error]
+14:52:05.393 INFO - Executing: [delete session: ed399762-4aea-4473-ab03-c1d9af420aa4])
+14:52:05.466 INFO - Done: [delete session: ed399762-4aea-4473-ab03-c1d9af420aa4]
