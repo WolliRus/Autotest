@@ -5,9 +5,9 @@
 
   <testsuite name="timeReport"
     errors="0" failures="0" hostname="" id="" package="timeReport" skipped="0"
-    tests="1" time="18.19" timestamp="Wed, 02 Aug 2017 05:50:13 GMT">
+    tests="1" time="19.50" timestamp="Fri, 04 Aug 2017 05:38:59 GMT">
   
-    <testcase name="Автоматическое передвигание времени в Ютреке" classname="timeReport" time="18.19" assertions="3">
+    <testcase name="Автоматическое передвигание времени в Ютреке" classname="timeReport" time="19.50" assertions="3">
 
     
 

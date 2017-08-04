@@ -5,9 +5,9 @@
 
   <testsuite name="pattern"
     errors="0" failures="0" hostname="" id="" package="pattern" skipped="0"
-    tests="1" time="5.623" timestamp="Wed, 02 Aug 2017 08:39:04 GMT">
+    tests="1" time="9.667" timestamp="Fri, 04 Aug 2017 11:27:00 GMT">
   
-    <testcase name="Купить, товар с вариантами" classname="pattern" time="5.623" assertions="3">
+    <testcase name="Купить, товар с вариантами" classname="pattern" time="9.667" assertions="3">
 
     
 
