@@ -1,37 +1,23 @@
-14:52:02.391 INFO - Launching a standalone Selenium Server
-14:52:02.411 INFO - Java: Oracle Corporation 25.131-b11
-14:52:02.411 INFO - OS: Linux 4.4.0-53-generic amd64
-14:52:02.420 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-14:52:02.473 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+09:40:18.082 INFO - Launching a standalone Selenium Server
+09:40:18.104 INFO - Java: Oracle Corporation 25.131-b11
+09:40:18.104 INFO - OS: Linux 4.4.0-53-generic amd64
+09:40:18.112 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+09:40:18.158 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:52:02.473 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+09:40:18.158 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:52:02.473 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:52:02.473 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:52:02.474 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+09:40:18.158 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+09:40:18.158 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+09:40:18.159 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-14:52:02.475 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-14:52:02.475 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-14:52:02.513 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-14:52:02.514 INFO - Selenium Server is up and running
-14:52:02.745 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-14:52:02.753 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 7798
+09:40:18.160 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+09:40:18.160 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+09:40:18.196 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+09:40:18.196 INFO - Selenium Server is up and running
+09:40:18.385 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Smoke, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+09:40:18.392 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Smoke, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 10472
 Only local connections are allowed.
-14:52:03.520 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-14:52:03.560 INFO - Executing: [get: http://tomaskz.t3/p/22128544-tovar-s-variantami/])
-14:52:05.011 INFO - Done: [get: http://tomaskz.t3/p/22128544-tovar-s-variantami/]
-14:52:05.023 INFO - Executing: [maximise window])
-14:52:05.157 INFO - Done: [maximise window]
-14:52:05.163 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
-14:52:05.217 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
-14:52:05.225 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
-14:52:05.248 INFO - Done: [get text: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
-14:52:05.252 INFO - Executing: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]])
-14:52:05.259 INFO - Done: [find element: By.cssSelector: .p_info td span[class="b-btn__name gradient"]]
-14:52:05.262 INFO - Executing: [click: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]])
-14:52:05.329 INFO - Done: [click: 0 [[ChromeDriver: chrome on LINUX (cba195560fd1b708ec5f1370ed7372ac)] -> css selector: .p_info td span[class="b-btn__name gradient"]]]
-14:52:05.354 INFO - Executing: [find elements: By.cssSelector: .p_error])
-14:52:05.389 INFO - Done: [find elements: By.cssSelector: .p_error]
-14:52:05.393 INFO - Executing: [delete session: ed399762-4aea-4473-ab03-c1d9af420aa4])
-14:52:05.466 INFO - Done: [delete session: ed399762-4aea-4473-ab03-c1d9af420aa4]
+09:40:19.101 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Smoke, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+09:40:19.130 INFO - Executing: [delete session: a81b4252-068d-4895-9bc1-e3eada618785])
+09:40:19.204 INFO - Done: [delete session: a81b4252-068d-4895-9bc1-e3eada618785]

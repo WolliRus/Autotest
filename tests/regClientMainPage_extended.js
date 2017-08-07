@@ -7,7 +7,7 @@ var randomNumber = Math.floor(Math.random() * (100000 - 1 + 1)) + 1;
 
 module.exports = {
 
-tags: ['regClient'],
+tags: ['regClient', 'extended'],
 
 'Пустое имя клиента' : function (browser) {
   browser
