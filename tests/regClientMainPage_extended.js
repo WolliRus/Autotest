@@ -8,8 +8,94 @@ var randomNumber = Math.floor(Math.random() * (100000 - 1 + 1)) + 1;
 module.exports = {
 
 tags: ['regClient', 'extended'],
+'Регистрация кабинета покупателя: Username латиница' : function (browser) {
+  browser
 
-'Пустое имя клиента' : function (browser) {
+  .url (url) // указываем ссылку
+
+  .waitForElementPresent('.slider__full-link',5000) // Ждём когда появится в коде элемент слайдер, таймаут 5000
+  .click('a[href="'+ url +'/reg/d2/"]')
+  .click('.b-registration__icon.b-registration__icon_user')
+  .setValue('#username', 'Avtotestik')
+  .setValue('#email', login.storage[0])
+  .setValue('#password', 'test')
+  .click('.b-btn.b-btn_color_yellow.b-btn_size_big')
+  browser.deleteClient(login.storage[0]);
+
+  browser.perform(function () { // удаляем ненужный мыльник
+    browser.deleteLastEmail();
+  })
+
+   .end()
+
+},// конец теста, запятую для начала следующего
+
+'Регистрация кабинета покупателя: Username спецсимволы' : function (browser) {
+  browser
+
+  .url (url) // указываем ссылку
+
+  .waitForElementPresent('.slider__full-link',5000) // Ждём когда появится в коде элемент слайдер, таймаут 5000
+  .click('a[href="'+ url +'/reg/d2/"]')
+  .click('.b-registration__icon.b-registration__icon_user')
+  .setValue('#username', 'Avtote.s1t№ik')
+  .setValue('#email', login.storage[0])
+  .setValue('#password', 'test')
+  .click('.b-btn.b-btn_color_yellow.b-btn_size_big')
+  browser.deleteClient(login.storage[0]);
+
+  browser.perform(function () { // удаляем ненужный мыльник
+    browser.deleteLastEmail();
+  })
+
+   .end()
+
+},// конец теста, запятую для начала следующего
+
+'Регистрация кабинета покупателя: Email кирилица' : function (browser) {
+  browser
+
+  .url (url) // указываем ссылку
+
+  .waitForElementPresent('.slider__full-link',5000) // Ждём когда появится в коде элемент слайдер, таймаут 5000
+  .click('a[href="'+ url +'/reg/d2/"]')
+  .click('.b-registration__icon.b-registration__icon_user')
+  .setValue('#username', 'Avtote.s1t№ik')
+  .setValue('#email', 'кирилический@мыльник.ру'+ randomNumberEmail)
+  .setValue('#password', 'test')
+  .click('.b-btn.b-btn_color_yellow.b-btn_size_big')
+  browser.deleteClient(login.storage[0]);
+
+  browser.perform(function () { // удаляем ненужный мыльник
+    browser.deleteLastEmail();
+  })
+
+   .end()
+
+},// конец теста, запятую для начала следующего
+'Регистрация кабинета покупателя: Password спецсимволы' : function (browser) {
+  browser
+
+  .url (url) // указываем ссылку
+
+  .waitForElementPresent('.slider__full-link',5000) // Ждём когда появится в коде элемент слайдер, таймаут 5000
+  .click('a[href="'+ url +'/reg/d2/"]')
+  .click('.b-registration__icon.b-registration__icon_user')
+  .setValue('#username', 'Avtote.s1t№ik')
+  .setValue('#email', login.storage[0])
+  .setValue('#password', 'te#21.2sAst')
+  .click('.b-btn.b-btn_color_yellow.b-btn_size_big')
+  browser.deleteClient(login.storage[0]);
+
+  browser.perform(function () { // удаляем ненужный мыльник
+    browser.deleteLastEmail();
+  })
+
+   .end()
+
+},// конец теста, запятую для начала следующего
+
+'Регистрация кабинета покупателя: Пустое имя клиента' : function (browser) {
   browser
 
   .url (url) // указываем ссылку
@@ -26,7 +112,7 @@ tags: ['regClient', 'extended'],
 
 }, // конец теста
 
-'Неправильный email. Без домена' : function (browser) {
+'Регистрация кабинета покупателя: Неправильный email. Без домена' : function (browser) {
   browser
 
   .url (url) // указываем ссылку
@@ -43,7 +129,7 @@ tags: ['regClient', 'extended'],
 
 }, // конец теста
 
-'Неправильный email. Без собаки' : function (browser) {
+'Регистрация кабинета покупателя: Неправильный email. Без собаки' : function (browser) {
   browser
 
   .url (url) // указываем ссылку
@@ -60,7 +146,7 @@ tags: ['regClient', 'extended'],
 
 }, // конец теста
 
-'Неправильный email. Пустой' : function (browser) {
+'Регистрация кабинета покупателя: Неправильный email. Пустой' : function (browser) {
   browser
 
   .url (url) // указываем ссылку
@@ -75,7 +161,7 @@ tags: ['regClient', 'extended'],
   .end()
 }, // конец теста
 
-  'Пустой пароль' : function (browser) {
+  'Регистрация кабинета покупателя: Пустой пароль' : function (browser) {
     browser
 
     .url (url) // указываем ссылку
@@ -92,7 +178,7 @@ tags: ['regClient', 'extended'],
 
   }, // конец теста
 
-  'Пароль кирилица' : function (browser) {
+  'Регистрация кабинета покупателя: Пароль кирилица' : function (browser) {
     browser
 
     .url (url) // указываем ссылку

@@ -22,7 +22,117 @@ module.exports = {
 tags: ['callMeCatalog', 'extended'],
 
 
-'Проверка появления алерта на пустое поле' : function (browser) {
+'Перезвоните мне: Проверка появления алерта на пустое поле' : function (browser) {
+  browser
+
+  .url(url + targetUrl)
+  .maximizeWindow()
+
+  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
+  this.click('.b-recall.event_ga>span')
+  })
+// Ждем диалог указания номера
+  .waitForElementVisible('#oneclick-dialog', 5000, function () {
+    this.click('#ocNumber', function () {
+// жмем бекспейс дофига раз
+      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
+        browser.keys(browser.Keys.BACK_SPACE)
+        i++
+      }
+
+    })
+  // заполняем поля
+    this.setValue('#ocNumber', '')
+    this.click('#oneclick-submit-btn')
+  })
+  .waitForElementVisible('.p_error', 5000)
+  .end()
+}, // конец теста
+
+'Перезвоните мне: Проверка появления алерта на латиницу' : function (browser) {
+  browser
+
+  .url(url + targetUrl)
+  .maximizeWindow()
+
+  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
+  this.click('.b-recall.event_ga>span')
+  })
+// Ждем диалог указания номера
+  .waitForElementVisible('#oneclick-dialog', 5000, function () {
+    this.click('#ocNumber', function () {
+// жмем бекспейс дофига раз
+      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
+        browser.keys(browser.Keys.BACK_SPACE)
+        i++
+      }
+
+    })
+  // заполняем поля
+    this.setValue('#ocNumber', '929s452458')
+    this.click('#oneclick-submit-btn')
+  })
+  .waitForElementVisible('.p_error', 5000)
+  .end()
+}, // конец теста
+
+
+'Перезвоните мне: Проверка появления алерта на кирилицу' : function (browser) {
+  browser
+
+  .url(url + targetUrl)
+  .maximizeWindow()
+
+  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
+  this.click('.b-recall.event_ga>span')
+  })
+// Ждем диалог указания номера
+  .waitForElementVisible('#oneclick-dialog', 5000, function () {
+    this.click('#ocNumber', function () {
+// жмем бекспейс дофига раз
+      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
+        browser.keys(browser.Keys.BACK_SPACE)
+        i++
+      }
+
+    })
+  // заполняем поля
+    this.setValue('#ocNumber', '929ы452458')
+    this.click('#oneclick-submit-btn')
+  })
+  .waitForElementVisible('.p_error', 5000)
+  .end()
+}, // конец теста
+
+
+'Перезвоните мне: Проверка появления алерта на спецсимволы' : function (browser) {
+  browser
+
+  .url(url + targetUrl)
+  .maximizeWindow()
+
+  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
+  this.click('.b-recall.event_ga>span')
+  })
+// Ждем диалог указания номера
+  .waitForElementVisible('#oneclick-dialog', 5000, function () {
+    this.click('#ocNumber', function () {
+// жмем бекспейс дофига раз
+      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
+        browser.keys(browser.Keys.BACK_SPACE)
+        i++
+      }
+
+    })
+  // заполняем поля
+    this.setValue('#ocNumber', '929#452458')
+    this.click('#oneclick-submit-btn')
+  })
+  .waitForElementVisible('.p_error', 5000)
+  .end()
+}, // конец теста
+
+'Перезвоните мне: Проверка появления алерта на пустое поле' : function (browser) {
   browser
 
   .url(url + targetUrl)
@@ -77,7 +187,7 @@ tags: ['callMeCatalog', 'extended'],
 }, // конец теста
 
 
-'Проверка появления алерта на кирилицу' : function (browser) {
+'Перезвоните мне: Проверка появления алерта на кирилицу' : function (browser) {
   browser
 
   .url(url + targetUrl)
@@ -105,7 +215,7 @@ tags: ['callMeCatalog', 'extended'],
 }, // конец теста
 
 
-'Проверка появления алерта на спецсимволы' : function (browser) {
+'Перезвоните мне: Проверка появления алерта на спецсимволы' : function (browser) {
   browser
 
   .url(url + targetUrl)

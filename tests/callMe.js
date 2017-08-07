@@ -21,7 +21,7 @@ module.exports = {
 
 tags: ['callMeCatalog'],
 
-'Проверка появления заказа в кабинете клиента' : function (browser) {
+'Перезвоните мне: Проверка появления заказа в кабинете клиента' : function (browser) {
   browser
 
 // логин в кабинет юзера
@@ -70,7 +70,7 @@ console.log(product_name);
 
 },
 
-'Проверяем, что появляются перезвоняшки в заказах компании' : function (browser) {
+'Перезвоните мне: Проверяем, что появляются перезвоняшки в заказах компании' : function (browser) {
   browser
 
 
@@ -89,7 +89,7 @@ console.log(product_name);
   .end()
 }, // второй тест закончен
 
-'Проверка появления заказа в сообщениях в кабинете клиента' : function (browser) {
+'Перезвоните мне: Проверка появления заказа в сообщениях в кабинете клиента' : function (browser) {
   browser
     // логин в кабинет юзера
     .url(url + '/registration/login/')
@@ -135,7 +135,7 @@ console.log(product_name);
 
       browser.end()
 },// конец теста
-'Проверка появления заказа в сообщениях в кабинете компании' : function (browser) {
+'Перезвоните мне: Проверка появления заказа в сообщениях в кабинете компании' : function (browser) {
   browser
     // логин в кабинет юзера
     .url(url + '/registration/login/')
@@ -155,115 +155,6 @@ console.log(product_name);
 },// конец теста
 
 
-'Проверка появления алерта на пустое поле' : function (browser) {
-  browser
-
-  .url(url + targetUrl)
-  .maximizeWindow()
-
-  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
-  this.click('.b-recall.event_ga>span')
-  })
-// Ждем диалог указания номера
-  .waitForElementVisible('#oneclick-dialog', 5000, function () {
-    this.click('#ocNumber', function () {
-// жмем бекспейс дофига раз
-      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
-        browser.keys(browser.Keys.BACK_SPACE)
-        i++
-      }
-
-    })
-  // заполняем поля
-    this.setValue('#ocNumber', '')
-    this.click('#oneclick-submit-btn')
-  })
-  .waitForElementVisible('.p_error', 5000)
-  .end()
-}, // конец теста
-
-'Проверка появления алерта на латиницу' : function (browser) {
-  browser
-
-  .url(url + targetUrl)
-  .maximizeWindow()
-
-  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
-  this.click('.b-recall.event_ga>span')
-  })
-// Ждем диалог указания номера
-  .waitForElementVisible('#oneclick-dialog', 5000, function () {
-    this.click('#ocNumber', function () {
-// жмем бекспейс дофига раз
-      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
-        browser.keys(browser.Keys.BACK_SPACE)
-        i++
-      }
-
-    })
-  // заполняем поля
-    this.setValue('#ocNumber', '929s452458')
-    this.click('#oneclick-submit-btn')
-  })
-  .waitForElementVisible('.p_error', 5000)
-  .end()
-}, // конец теста
-
-
-'Проверка появления алерта на кирилицу' : function (browser) {
-  browser
-
-  .url(url + targetUrl)
-  .maximizeWindow()
-
-  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
-  this.click('.b-recall.event_ga>span')
-  })
-// Ждем диалог указания номера
-  .waitForElementVisible('#oneclick-dialog', 5000, function () {
-    this.click('#ocNumber', function () {
-// жмем бекспейс дофига раз
-      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
-        browser.keys(browser.Keys.BACK_SPACE)
-        i++
-      }
-
-    })
-  // заполняем поля
-    this.setValue('#ocNumber', '929ы452458')
-    this.click('#oneclick-submit-btn')
-  })
-  .waitForElementVisible('.p_error', 5000)
-  .end()
-}, // конец теста
-
-
-'Проверка появления алерта на спецсимволы' : function (browser) {
-  browser
-
-  .url(url + targetUrl)
-  .maximizeWindow()
-
-  .waitForElementPresent('.b-recall.event_ga>span', 5000, function () {
-  this.click('.b-recall.event_ga>span')
-  })
-// Ждем диалог указания номера
-  .waitForElementVisible('#oneclick-dialog', 5000, function () {
-    this.click('#ocNumber', function () {
-// жмем бекспейс дофига раз
-      for (var i = 0; i < 21; i++) { // десять раз жмём бекспейс
-        browser.keys(browser.Keys.BACK_SPACE)
-        i++
-      }
-
-    })
-  // заполняем поля
-    this.setValue('#ocNumber', '929#452458')
-    this.click('#oneclick-submit-btn')
-  })
-  .waitForElementVisible('.p_error', 5000)
-  .end()
-}, // конец теста
 
 
 }

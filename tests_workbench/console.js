@@ -11,12 +11,9 @@ module.exports = {
 
   tags: ['console'],
 
-  'Положительный тест на Регистрацию' : function (browser) {
-    browser
-    .url(url)
-    .end()
+  'Запуск хурмы в консоли' : function (browser) {
     //комментирую пока не нужно нагенерить мыльников
-    // browser.generateEmails(3,'./tests/TestData/emails2.txt');
+    browser.generateEmails(100,'./TestData/emails.txt');
 
 
 

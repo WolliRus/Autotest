@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="workbench.sendMessage"
+    errors="0" failures="1" hostname="" id="" package="workbench" skipped="0"
+    tests="1" time="12.87" timestamp="Mon, 07 Aug 2017 09:34:08 GMT">
+  
+    <testcase name="Написать компании c логином" classname="workbench.sendMessage" time="12.87" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#cabinet-report-block&gt; to be present for 5000 milliseconds.">    at Object.module.exports.Написать компании c логином (/home/agent/docs/Autotest/tests_workbench/sendMessage.js:60:4)
+    at Module.call (/home/agent/docs/Autotest/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/Autotest/nightwatch/lib/runner/testcase.js:70:29</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

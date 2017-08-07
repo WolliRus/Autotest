@@ -1,23 +1,101 @@
-09:40:18.082 INFO - Launching a standalone Selenium Server
-09:40:18.104 INFO - Java: Oracle Corporation 25.131-b11
-09:40:18.104 INFO - OS: Linux 4.4.0-53-generic amd64
-09:40:18.112 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-09:40:18.158 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+12:34:08.819 INFO - Launching a standalone Selenium Server
+12:34:08.839 INFO - Java: Oracle Corporation 25.131-b11
+12:34:08.839 INFO - OS: Linux 4.4.0-53-generic amd64
+12:34:08.847 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+12:34:08.889 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-09:40:18.158 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+12:34:08.889 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-09:40:18.158 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-09:40:18.158 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-09:40:18.159 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+12:34:08.889 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:34:08.889 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:34:08.890 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-09:40:18.160 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-09:40:18.160 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-09:40:18.196 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-09:40:18.196 INFO - Selenium Server is up and running
-09:40:18.385 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Smoke, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-09:40:18.392 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Smoke, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 10472
+12:34:08.891 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+12:34:08.891 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+12:34:08.925 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+12:34:08.925 INFO - Selenium Server is up and running
+12:34:09.118 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Workbench / Send Message, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:34:09.125 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Workbench / Send Message, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 30795
 Only local connections are allowed.
-09:40:19.101 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Smoke, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-09:40:19.130 INFO - Executing: [delete session: a81b4252-068d-4895-9bc1-e3eada618785])
-09:40:19.204 INFO - Done: [delete session: a81b4252-068d-4895-9bc1-e3eada618785]
+12:34:09.839 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Workbench / Send Message, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:34:09.855 INFO - Executing: [get: https://tomaskz.t3])
+12:34:11.565 INFO - Done: [get: https://tomaskz.t3]
+12:34:11.579 INFO - Executing: [find elements: By.cssSelector: .slider__full-link])
+12:34:11.610 INFO - Done: [find elements: By.cssSelector: .slider__full-link]
+12:34:11.615 INFO - Executing: [find element: By.cssSelector: a[href="https://tomaskz.t3/reg/d2/"]])
+12:34:11.643 INFO - Done: [find element: By.cssSelector: a[href="https://tomaskz.t3/reg/d2/"]]
+12:34:11.645 INFO - Executing: [click: 8 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: a[href="https://tomaskz.t3/reg/d2/"]]])
+12:34:12.349 INFO - Done: [click: 8 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: a[href="https://tomaskz.t3/reg/d2/"]]]
+12:34:12.352 INFO - Executing: [find element: By.cssSelector: .b-registration__icon.b-registration__icon_user])
+12:34:12.376 INFO - Done: [find element: By.cssSelector: .b-registration__icon.b-registration__icon_user]
+12:34:12.378 INFO - Executing: [click: 9 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .b-registration__icon.b-registration__icon_user]])
+12:34:12.441 INFO - Done: [click: 9 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .b-registration__icon.b-registration__icon_user]]
+12:34:12.444 INFO - Executing: [find element: By.cssSelector: #username])
+12:34:12.466 INFO - Done: [find element: By.cssSelector: #username]
+12:34:12.469 INFO - Executing: [send keys: 10 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #username], [А, в, т, о, т, е, с, т,  , А, в, т, о, т, е, с, т, о, в, и, ч]])
+12:34:12.567 INFO - Done: [send keys: 10 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #username], [А, в, т, о, т, е, с, т,  , А, в, т, о, т, е, с, т, о, в, и, ч]]
+12:34:12.570 INFO - Executing: [find element: By.cssSelector: #email])
+12:34:12.594 INFO - Done: [find element: By.cssSelector: #email]
+12:34:12.597 INFO - Executing: [send keys: 11 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #email], [q, u, n, n, e, n, n, i, p, p, o, -, 6, 2, 7, 9, @, y, o, p, m, a, i, l, ., c, o, m]])
+12:34:12.704 INFO - Done: [send keys: 11 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #email], [q, u, n, n, e, n, n, i, p, p, o, -, 6, 2, 7, 9, @, y, o, p, m, a, i, l, ., c, o, m]]
+12:34:12.706 INFO - Executing: [find element: By.cssSelector: #password])
+12:34:12.729 INFO - Done: [find element: By.cssSelector: #password]
+12:34:12.733 INFO - Executing: [send keys: 12 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #password], [t, e, s, t]])
+12:34:12.785 INFO - Done: [send keys: 12 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #password], [t, e, s, t]]
+12:34:12.796 INFO - Executing: [find element: By.cssSelector: .b-btn.b-btn_color_yellow.b-btn_size_big])
+12:34:12.816 INFO - Done: [find element: By.cssSelector: .b-btn.b-btn_color_yellow.b-btn_size_big]
+12:34:12.822 INFO - Executing: [click: 13 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .b-btn.b-btn_color_yellow.b-btn_size_big]])
+12:34:14.194 INFO - Done: [click: 13 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .b-btn.b-btn_color_yellow.b-btn_size_big]]
+12:34:14.197 INFO - Executing: [get: https://tomaskz.t3/p/22128556-napisat-kompanii/])
+12:34:15.045 INFO - Done: [get: https://tomaskz.t3/p/22128556-napisat-kompanii/]
+12:34:15.052 INFO - Executing: [find element: By.cssSelector: .product__name])
+12:34:15.084 INFO - Done: [find element: By.cssSelector: .product__name]
+12:34:15.086 INFO - Executing: [get text: 14 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .product__name]])
+12:34:15.105 INFO - Done: [get text: 14 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .product__name]]
+12:34:15.110 INFO - Executing: [find elements: By.cssSelector: .cabinet-footer-copyrights])
+12:34:15.126 INFO - Done: [find elements: By.cssSelector: .cabinet-footer-copyrights]
+12:34:15.130 INFO - Executing: [find element: By.cssSelector: .contact_firm.dashed.on_hover__link.event_ga])
+12:34:15.146 INFO - Done: [find element: By.cssSelector: .contact_firm.dashed.on_hover__link.event_ga]
+12:34:15.149 INFO - Executing: [click: 16 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .contact_firm.dashed.on_hover__link.event_ga]])
+12:34:15.276 INFO - Done: [click: 16 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: .contact_firm.dashed.on_hover__link.event_ga]]
+12:34:15.279 INFO - Executing: [find elements: By.cssSelector: #contact-now-dialog])
+12:34:15.299 INFO - Done: [find elements: By.cssSelector: #contact-now-dialog]
+12:34:15.804 INFO - Executing: [find elements: By.cssSelector: #contact-now-dialog])
+12:34:15.812 INFO - Done: [find elements: By.cssSelector: #contact-now-dialog]
+12:34:15.815 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #contact-now-dialog]])
+12:34:15.831 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #contact-now-dialog]]
+12:34:15.834 INFO - Executing: [find element: By.cssSelector: #message])
+12:34:15.854 INFO - Done: [find element: By.cssSelector: #message]
+12:34:15.857 INFO - Executing: [send keys: 18 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #message], [4, 9, 2, 0, 1,  , С, о, о, б, щ, е, н, и, е,  , с,  , л, а, т, и, н, и, ц, е, й,  , 4, 9, 2, 0, 1]])
+12:34:16.087 INFO - Done: [send keys: 18 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #message], [4, 9, 2, 0, 1,  , С, о, о, б, щ, е, н, и, е,  , с,  , л, а, т, и, н, и, ц, е, й,  , 4, 9, 2, 0, 1]]
+12:34:16.096 INFO - Executing: [find element: By.cssSelector: #send_feedback_form])
+12:34:16.114 INFO - Done: [find element: By.cssSelector: #send_feedback_form]
+12:34:16.117 INFO - Executing: [click: 19 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #send_feedback_form]])
+12:34:16.177 INFO - Done: [click: 19 [[ChromeDriver: chrome on LINUX (6b8c66ea3ea066c2f9c184f4c614ff06)] -> css selector: #send_feedback_form]]
+12:34:16.181 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:16.209 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:16.714 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:17.015 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:17.519 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:17.527 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:18.030 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:18.041 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:18.545 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:18.552 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:19.059 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:19.079 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:19.583 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:19.589 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:20.092 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:20.098 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:20.601 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:20.608 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:21.110 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:21.119 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:21.622 INFO - Executing: [find elements: By.cssSelector: #cabinet-report-block])
+12:34:21.628 INFO - Done: [find elements: By.cssSelector: #cabinet-report-block]
+12:34:21.633 INFO - Executing: [take screenshot])
+12:34:21.727 INFO - Done: [take screenshot]
+12:34:21.742 INFO - Executing: [delete session: a99cfdd6-b5fc-487b-91ae-18a0ba2b7382])
+12:34:21.832 INFO - Done: [delete session: a99cfdd6-b5fc-487b-91ae-18a0ba2b7382]

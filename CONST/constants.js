@@ -1,5 +1,5 @@
 var SITES = {
-  URL : "http://tomaskz.t3",
+  URL : "https://tomaskz.t3",
   REF : "",
 }
 
