@@ -1,47 +1,129 @@
-17:39:45.645 INFO - Launching a standalone Selenium Server
-17:39:45.666 INFO - Java: Oracle Corporation 25.131-b11
-17:39:45.666 INFO - OS: Linux 4.4.0-53-generic amd64
-17:39:45.674 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-17:39:45.719 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+08:35:24.398 INFO - Launching a standalone Selenium Server
+08:35:24.418 INFO - Java: Oracle Corporation 25.131-b11
+08:35:24.418 INFO - OS: Linux 4.4.0-53-generic amd64
+08:35:24.425 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+08:35:24.467 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:39:45.719 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+08:35:24.467 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:39:45.719 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:39:45.719 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:39:45.721 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+08:35:24.467 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+08:35:24.467 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+08:35:24.468 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-17:39:45.721 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-17:39:45.721 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-17:39:45.761 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-17:39:45.761 INFO - Selenium Server is up and running
-17:39:46.040 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Workbench / Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-17:39:46.048 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Workbench / Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 6764
+08:35:24.469 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+08:35:24.469 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+08:35:24.505 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+08:35:24.505 INFO - Selenium Server is up and running
+08:35:24.691 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Workbench / Time Report, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+08:35:24.699 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Workbench / Time Report, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 5495
 Only local connections are allowed.
-17:39:46.985 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Workbench / Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-17:39:47.029 INFO - Executing: [get: https://zakupka.com/registration/login/])
-17:39:50.134 INFO - Done: [get: https://zakupka.com/registration/login/]
-17:39:50.143 INFO - Executing: [find element: By.cssSelector: #login_])
-17:39:50.177 INFO - Done: [find element: By.cssSelector: #login_]
-17:39:50.182 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: #login_], [A, u, t, o, t, e, s, t, -, M, a, s, t, e, r, @, t, e, s, t, ., c, o, m]])
-17:39:50.348 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: #login_], [A, u, t, o, t, e, s, t, -, M, a, s, t, e, r, @, t, e, s, t, ., c, o, m]]
-17:39:50.351 INFO - Executing: [find element: By.cssSelector: #pass_field])
-17:39:50.380 INFO - Done: [find element: By.cssSelector: #pass_field]
-17:39:50.383 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: #pass_field], [t, e, s, t]])
-17:39:50.467 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: #pass_field], [t, e, s, t]]
-17:39:50.472 INFO - Executing: [find element: By.cssSelector: #submit-login])
-17:39:50.502 INFO - Done: [find element: By.cssSelector: #submit-login]
-17:39:50.505 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: #submit-login]])
-17:39:52.853 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: #submit-login]]
-17:39:52.862 INFO - Executing: [get: https://zakupka.com/cabinet/design/editor/])
-17:40:07.067 INFO - Done: [get: https://zakupka.com/cabinet/design/editor/]
-17:40:07.072 INFO - Executing: [find element: By.cssSelector: ul[class="inline-list b-editor-list"]>li:first-child a img])
-17:40:07.112 INFO - Done: [find element: By.cssSelector: ul[class="inline-list b-editor-list"]>li:first-child a img]
-17:40:07.114 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: ul[class="inline-list b-editor-list"]>li:first-child a img]])
-17:40:07.218 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: ul[class="inline-list b-editor-list"]>li:first-child a img]]
-17:40:07.223 INFO - Executing: [find element: By.cssSelector: ul[class="inline-list b-editor-list"]>li:first-child a img])
-17:40:07.266 INFO - Done: [find element: By.cssSelector: ul[class="inline-list b-editor-list"]>li:first-child a img]
-17:40:07.274 INFO - Executing: [get value of css property: 3 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: ul[class="inline-list b-editor-list"]>li:first-child a img], background-color])
-17:40:07.301 INFO - Done: [get value of css property: 3 [[ChromeDriver: chrome on LINUX (c24f8c09f12a56ff4807bf1c1dd366ad)] -> css selector: ul[class="inline-list b-editor-list"]>li:first-child a img], background-color]
-17:40:07.314 INFO - Executing: [delete session: 933a40ad-76ce-4d82-b616-2af6eb8e1124])
-17:40:07.406 INFO - Done: [delete session: 933a40ad-76ce-4d82-b616-2af6eb8e1124]
+08:35:25.454 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Workbench / Time Report, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+08:35:25.480 INFO - Executing: [maximise window])
+08:35:25.586 INFO - Done: [maximise window]
+08:35:25.592 INFO - Executing: [get: https://zakupka.myjetbrains.com/])
+08:35:28.854 INFO - Done: [get: https://zakupka.myjetbrains.com/]
+08:35:31.861 INFO - Executing: [find element: By.cssSelector: #username])
+08:35:31.891 INFO - Done: [find element: By.cssSelector: #username]
+08:35:31.900 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: #username], [q, a, z, a, k, u, p, k, a, @, y, a, n, d, e, x, ., r, u]])
+08:35:32.073 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: #username], [q, a, z, a, k, u, p, k, a, @, y, a, n, d, e, x, ., r, u]]
+08:35:32.081 INFO - Executing: [find element: By.cssSelector: #password])
+08:35:32.110 INFO - Done: [find element: By.cssSelector: #password]
+08:35:32.113 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: #password], [S, t, a, s, o, n, 4, i, k, 9, 5]])
+08:35:32.206 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: #password], [S, t, a, s, o, n, 4, i, k, 9, 5]]
+08:35:32.211 INFO - Executing: [find element: By.cssSelector: .ring-button.ring-button_blue.auth-button.auth-button_wide])
+08:35:32.243 INFO - Done: [find element: By.cssSelector: .ring-button.ring-button_blue.auth-button.auth-button_wide]
+08:35:32.246 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-button.ring-button_blue.auth-button.auth-button_wide]])
+08:35:34.004 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-button.ring-button_blue.auth-button.auth-button_wide]]
+08:35:36.015 INFO - Executing: [get: https://zakupka.myjetbrains.com/youtrack/reports/time/109-61])
+08:35:46.050 INFO - Done: [get: https://zakupka.myjetbrains.com/youtrack/reports/time/109-61]
+08:35:46.064 INFO - Executing: [find elements: By.cssSelector: .report-toolbar__actions__i])
+08:35:46.104 INFO - Done: [find elements: By.cssSelector: .report-toolbar__actions__i]
+08:35:46.612 INFO - Executing: [find elements: By.cssSelector: .report-toolbar__actions__i])
+08:35:46.646 INFO - Done: [find elements: By.cssSelector: .report-toolbar__actions__i]
+08:35:46.650 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .report-toolbar__actions__i]])
+08:35:46.677 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .report-toolbar__actions__i]]
+08:35:47.683 INFO - Executing: [find elements: By.cssSelector: .report-toolbar__actions__i[title=Изменить]])
+08:35:47.699 INFO - Done: [find elements: By.cssSelector: .report-toolbar__actions__i[title=Изменить]]
+08:35:47.703 INFO - Executing: [find element: By.cssSelector: .report-toolbar__actions__i[title=Изменить]])
+08:35:47.719 INFO - Done: [find element: By.cssSelector: .report-toolbar__actions__i[title=Изменить]]
+08:35:47.721 INFO - Executing: [click: 4 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .report-toolbar__actions__i]])
+08:35:47.923 INFO - Done: [click: 4 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .report-toolbar__actions__i]]
+08:35:47.928 INFO - Executing: [find elements: By.cssSelector: .ring-input-size_s[data-test=date-interval-input-end]])
+08:35:47.982 INFO - Done: [find elements: By.cssSelector: .ring-input-size_s[data-test=date-interval-input-end]]
+08:35:47.986 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-input-size_s[data-test=date-interval-input-end]]])
+08:35:48.007 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-input-size_s[data-test=date-interval-input-end]]]
+08:35:48.011 INFO - Executing: [find element: By.cssSelector: .ring-input-size_s[data-test=date-interval-input-end])
+08:35:48.027 INFO - Done: [find element: By.cssSelector: .ring-input-size_s[data-test=date-interval-input-end]
+08:35:48.030 INFO - Executing: [click: 7 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-input-size_s[data-test=date-interval-input-end]]])
+08:35:48.125 INFO - Done: [click: 7 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-input-size_s[data-test=date-interval-input-end]]]
+08:35:48.135 INFO - Executing: [send keys to active: []])
+08:35:48.165 INFO - Done: [send keys to active: []]
+08:35:48.171 INFO - Executing: [send keys to active: []])
+08:35:48.211 INFO - Done: [send keys to active: []]
+08:35:48.218 INFO - Executing: [send keys to active: []])
+08:35:48.235 INFO - Done: [send keys to active: []]
+08:35:48.237 INFO - Executing: [send keys to active: []])
+08:35:48.256 INFO - Done: [send keys to active: []]
+08:35:48.264 INFO - Executing: [send keys to active: []])
+08:35:48.282 INFO - Done: [send keys to active: []]
+08:35:48.287 INFO - Executing: [send keys to active: []])
+08:35:48.305 INFO - Done: [send keys to active: []]
+08:35:48.317 INFO - Executing: [send keys to active: []])
+08:35:48.332 INFO - Done: [send keys to active: []]
+08:35:48.336 INFO - Executing: [send keys to active: []])
+08:35:48.355 INFO - Done: [send keys to active: []]
+08:35:48.360 INFO - Executing: [send keys to active: []])
+08:35:48.380 INFO - Done: [send keys to active: []]
+08:35:48.386 INFO - Executing: [send keys to active: []])
+08:35:48.391 INFO - Done: [send keys to active: []]
+08:35:48.394 INFO - Executing: [send keys to active: []])
+08:35:48.405 INFO - Done: [send keys to active: []]
+08:35:48.409 INFO - Executing: [send keys to active: []])
+08:35:48.413 INFO - Done: [send keys to active: []]
+08:35:48.415 INFO - Executing: [send keys to active: []])
+08:35:48.420 INFO - Done: [send keys to active: []]
+08:35:48.422 INFO - Executing: [send keys to active: []])
+08:35:48.427 INFO - Done: [send keys to active: []]
+08:35:48.429 INFO - Executing: [send keys to active: [8.8.2017]])
+08:35:48.572 INFO - Done: [send keys to active: [8.8.2017]]
+08:35:48.576 INFO - Executing: [find element: By.cssSelector: .ring-input-size_s[data-test=date-interval-input-start])
+08:35:48.606 INFO - Done: [find element: By.cssSelector: .ring-input-size_s[data-test=date-interval-input-start]
+08:35:48.608 INFO - Executing: [click: 8 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-input-size_s[data-test=date-interval-input-start]])
+08:35:48.671 INFO - Done: [click: 8 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-input-size_s[data-test=date-interval-input-start]]
+08:35:48.679 INFO - Executing: [send keys to active: []])
+08:35:48.692 INFO - Done: [send keys to active: []]
+08:35:48.703 INFO - Executing: [send keys to active: []])
+08:35:48.730 INFO - Done: [send keys to active: []]
+08:35:48.733 INFO - Executing: [send keys to active: []])
+08:35:48.752 INFO - Done: [send keys to active: []]
+08:35:48.759 INFO - Executing: [send keys to active: []])
+08:35:48.780 INFO - Done: [send keys to active: []]
+08:35:48.784 INFO - Executing: [send keys to active: []])
+08:35:48.805 INFO - Done: [send keys to active: []]
+08:35:48.811 INFO - Executing: [send keys to active: []])
+08:35:48.821 INFO - Done: [send keys to active: []]
+08:35:48.823 INFO - Executing: [send keys to active: []])
+08:35:48.854 INFO - Done: [send keys to active: []]
+08:35:48.859 INFO - Executing: [send keys to active: []])
+08:35:48.879 INFO - Done: [send keys to active: []]
+08:35:48.884 INFO - Executing: [send keys to active: []])
+08:35:48.903 INFO - Done: [send keys to active: []]
+08:35:48.909 INFO - Executing: [send keys to active: []])
+08:35:48.922 INFO - Done: [send keys to active: []]
+08:35:48.926 INFO - Executing: [send keys to active: []])
+08:35:48.930 INFO - Done: [send keys to active: []]
+08:35:48.932 INFO - Executing: [send keys to active: []])
+08:35:48.937 INFO - Done: [send keys to active: []]
+08:35:48.939 INFO - Executing: [send keys to active: []])
+08:35:48.944 INFO - Done: [send keys to active: []]
+08:35:48.946 INFO - Executing: [send keys to active: []])
+08:35:48.950 INFO - Done: [send keys to active: []]
+08:35:48.953 INFO - Executing: [send keys to active: [8.8.2017]])
+08:35:49.109 INFO - Done: [send keys to active: [8.8.2017]]
+08:35:49.118 INFO - Executing: [find element: By.cssSelector: .ring-button.ring-button_blue])
+08:35:49.136 INFO - Done: [find element: By.cssSelector: .ring-button.ring-button_blue]
+08:35:49.138 INFO - Executing: [click: 9 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-button.ring-button_blue]])
+08:35:49.224 INFO - Done: [click: 9 [[ChromeDriver: chrome on LINUX (3bb65c375bfc9914d965340d8c212cdf)] -> css selector: .ring-button.ring-button_blue]]
+08:35:49.229 INFO - Executing: [delete session: 3d5a82dd-b12d-4423-9203-99b1a8ebdd16])
+08:35:49.308 INFO - Done: [delete session: 3d5a82dd-b12d-4423-9203-99b1a8ebdd16]
