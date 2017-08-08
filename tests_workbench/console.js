@@ -12,9 +12,10 @@ module.exports = {
   tags: ['console'],
 
   'Запуск хурмы в консоли' : function (browser) {
-    //комментирую пока не нужно нагенерить мыльников
-    browser.generateEmails(100,'./TestData/emails.txt');
 
+    //комментирую пока не нужно нагенерить мыльников
+    // browser.generateEmails(100,'./TestData/emails.txt');
+    .expect.element('.b-firm-logo__td-title>a').to.have.css('color').which.equals('test')
 
 
   }, // конец теста

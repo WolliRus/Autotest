@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="workbench.console"
+    errors="0" failures="1" hostname="" id="" package="workbench" skipped="0"
+    tests="1" time="1.458" timestamp="Tue, 08 Aug 2017 07:21:53 GMT">
+  
+    <testcase name="Запуск хурмы в консоли" classname="workbench.console" time="1.458" assertions="1">  <failure message="Expected element &lt;.b-firm-logo__td-title&gt;a&gt; to have css property &quot;color&quot; which equals: &quot;test&quot; - element was not found">    at Object.module.exports.Запуск хурмы в консоли (/home/agent/docs/Autotest/tests_workbench/console.js:18:13)
+    at Module.call (/home/agent/docs/Autotest/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/Autotest/nightwatch/lib/runner/testcase.js:70:29</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

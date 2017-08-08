@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="pattern"
+    errors="0" failures="1" hostname="" id="" package="pattern" skipped="0"
+    tests="1" time="28.31" timestamp="Tue, 08 Aug 2017 14:54:02 GMT">
+  
+    <testcase name="Автотест шаблона. Проверка цвета заголовка" classname="pattern" time="28.31" assertions="2">
+
+      <failure message="Expected element &lt;.b-page__menu-and-logo a div[class=&quot;b-firm-title__title&quot;]&gt; to have attribute &quot;style&quot; equal to: &quot;color: rgb(255, 0, 153);&quot; - element was not found">    at Object.module.exports.Автотест шаблона. Проверка цвета заголовка (/home/agent/docs/Autotest/tests/pattern.js:32:18)
+    at Module.call (/home/agent/docs/Autotest/nightwatch/lib/runner/module.js:62:34)
+    at /home/agent/docs/Autotest/nightwatch/lib/runner/testcase.js:70:29</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
