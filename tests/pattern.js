@@ -10,40 +10,42 @@ var randomNumber = Math.floor(Math.random() * (100000 - 1 + 1)) + 1;;
 
 var companyLogin = 'Autotest-Master@test.com';
 var companyPassword = 'test';
-
+// корректная работа на шаблоне премьер
 module.exports = {
 
 tags: [''],
-
-'Автотест шаблона. Проверка цвета заголовка' : function (browser) {
+/*
+'Проверяем, что текстура меняется' : function (browser) {
 browser
+.login(companyLogin, companyPassword, url)
+.maximizeWindow()
+.url(url + '/cabinet/design/editor/')
+.click('#texture') // кликаем на настройки
+.click('#texture-tab a[id="texture_5"]')
+.click('#save-button')
+.url('https://testirovanieshablonov.zakupka.com')
+.acceptAlert()
+browser.expect.element('body').to.have.attribute('style').contains('background-image: url("//static.zakupka.com/tpl/one_firm/_textures/wrench.png")')
+browser
+.url(url + '/cabinet/design/editor/')
+ .click('#texture')
+ .click('#texture-tab a[id="texture_1"]')
+ .click('#save-button')
+ .end()
+
+},
+*/
+'Проверяем, что сайдбар справа' : function (browser) {
+  browser
   .login(companyLogin, companyPassword, url)
   .maximizeWindow()
   .url(url + '/cabinet/design/editor/')
-  .click('ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]') // кликаем на настройки
-  .click('#titleColor')
-  .waitForElementVisible('.colorpicker_color', 5000,'Вижу выбор цвета')
-  .deleteInputContent(10,10)
-  .click('.colorpicker_hex input')
-  .setValue('.colorpicker_hex input', 'FF0099')
-  // проверяем что в предпросмотре цвет поменялся
-  .click('.own-header__top-block') // кликаем куда-нибудь чтобы ушла палитра
-  // проверяем цвет в предпросмотре
-  browser.expect.element('.b-firm-title__title').to.have.attribute('style').equals('color: rgb(255, 0, 153);')
-  browser
+  .click('#options')
+  .click('#mpos_right')
   .click('#save-button')
- .waitForElementVisible('#cabinet-report-block',5000, "Сохранено!")
- .url('https://testirovanieshablonov.zakupka.com/')
- .acceptAlert()
- .waitForElementPresent('.b-footer-additional-links',5000) // ждем футер на минисайте
- browser.expect.element('.b-firm-logo__td-title').to.have.attribute('style').equals('color: rgb(255, 0, 153);')
-browser
- .url(url + '/cabinet/design/editor/')
- .click('ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]')
- .click('.header-colors__col a[onclick="ResetTitleColor();"]') // сбрасываем значение
- .click('.own-header__top-block')
- .click('#save-button')
- .end()
+  .url('https://testirovanieshablonov.zakupka.com')
+  .acceptAlert()
+  .waitForElementVisible('.b-page__sidebar.b-page__sidebar_position_right', 5000,'Сайбар находится справа')
 }
 
 

@@ -1,93 +1,65 @@
-17:54:02.753 INFO - Launching a standalone Selenium Server
-17:54:02.776 INFO - Java: Oracle Corporation 25.131-b11
-17:54:02.776 INFO - OS: Linux 4.4.0-53-generic amd64
-17:54:02.786 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-17:54:02.837 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+11:38:51.629 INFO - Launching a standalone Selenium Server
+11:38:51.653 INFO - Java: Oracle Corporation 25.131-b11
+11:38:51.653 INFO - OS: Linux 4.4.0-53-generic amd64
+11:38:51.663 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+11:38:51.746 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:54:02.837 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+11:38:51.746 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:54:02.837 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:54:02.837 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:54:02.838 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+11:38:51.746 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+11:38:51.747 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+11:38:51.748 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-17:54:02.839 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-17:54:02.839 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-17:54:02.883 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
-17:54:02.883 INFO - Selenium Server is up and running
-17:54:03.139 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-17:54:03.148 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 12372
+11:38:51.749 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+11:38:51.749 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+11:38:51.805 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4445/wd/hub
+11:38:51.806 INFO - Selenium Server is up and running
+11:38:52.070 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+11:38:52.080 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.30.477691 (6ee44a7247c639c0703f291d320bdf05c1531b57) on port 22634
 Only local connections are allowed.
-17:54:04.321 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-17:54:04.352 INFO - Executing: [get: https://zakupka.com/registration/login/])
-17:54:07.301 INFO - Done: [get: https://zakupka.com/registration/login/]
-17:54:07.310 INFO - Executing: [find element: By.cssSelector: #login_])
-17:54:07.352 INFO - Done: [find element: By.cssSelector: #login_]
-17:54:07.364 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #login_], [A, u, t, o, t, e, s, t, -, M, a, s, t, e, r, @, t, e, s, t, ., c, o, m]])
-17:54:07.615 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #login_], [A, u, t, o, t, e, s, t, -, M, a, s, t, e, r, @, t, e, s, t, ., c, o, m]]
-17:54:07.622 INFO - Executing: [find element: By.cssSelector: #pass_field])
-17:54:07.655 INFO - Done: [find element: By.cssSelector: #pass_field]
-17:54:07.659 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #pass_field], [t, e, s, t]])
-17:54:07.733 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #pass_field], [t, e, s, t]]
-17:54:07.742 INFO - Executing: [find element: By.cssSelector: #submit-login])
-17:54:07.768 INFO - Done: [find element: By.cssSelector: #submit-login]
-17:54:07.773 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #submit-login]])
-17:54:10.991 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #submit-login]]
-17:54:11.003 INFO - Executing: [maximise window])
-17:54:11.118 INFO - Done: [maximise window]
-17:54:11.124 INFO - Executing: [get: https://zakupka.com/cabinet/design/editor/])
-17:54:26.981 INFO - Done: [get: https://zakupka.com/cabinet/design/editor/]
-17:54:27.008 INFO - Executing: [find element: By.cssSelector: ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]])
-17:54:27.043 INFO - Done: [find element: By.cssSelector: ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]]
-17:54:27.046 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]]])
-17:54:27.170 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]]]
-17:54:27.187 INFO - Executing: [find element: By.cssSelector: #titleColor])
-17:54:27.271 INFO - Done: [find element: By.cssSelector: #titleColor]
-17:54:27.275 INFO - Executing: [click: 4 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #titleColor]])
-17:54:27.668 INFO - Done: [click: 4 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: #titleColor]]
-17:54:27.682 INFO - Executing: [find elements: By.cssSelector: .colorpicker_color])
-17:54:27.767 INFO - Done: [find elements: By.cssSelector: .colorpicker_color]
-17:54:27.776 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .colorpicker_color]])
-17:54:27.893 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .colorpicker_color]]
-17:54:27.926 INFO - Executing: [send keys to active: []])
-17:54:28.050 INFO - Done: [send keys to active: []]
-17:54:28.061 INFO - Executing: [send keys to active: []])
-17:54:28.106 INFO - Done: [send keys to active: []]
-17:54:28.119 INFO - Executing: [send keys to active: []])
-17:54:28.187 INFO - Done: [send keys to active: []]
-17:54:28.211 INFO - Executing: [send keys to active: []])
-17:54:28.274 INFO - Done: [send keys to active: []]
-17:54:28.289 INFO - Executing: [send keys to active: []])
-17:54:28.313 INFO - Done: [send keys to active: []]
-17:54:28.325 INFO - Executing: [send keys to active: []])
-17:54:28.351 INFO - Done: [send keys to active: []]
-17:54:28.362 INFO - Executing: [send keys to active: []])
-17:54:28.422 INFO - Done: [send keys to active: []]
-17:54:28.428 INFO - Executing: [send keys to active: []])
-17:54:28.483 INFO - Done: [send keys to active: []]
-17:54:28.492 INFO - Executing: [send keys to active: []])
-17:54:28.567 INFO - Done: [send keys to active: []]
-17:54:28.573 INFO - Executing: [send keys to active: []])
-17:54:28.668 INFO - Done: [send keys to active: []]
-17:54:28.674 INFO - Executing: [send keys to active: []])
-17:54:28.681 INFO - Done: [send keys to active: []]
-17:54:28.686 INFO - Executing: [send keys to active: []])
-17:54:28.701 INFO - Done: [send keys to active: []]
-17:54:28.711 INFO - Executing: [find element: By.cssSelector: .colorpicker_hex input])
-17:54:28.743 INFO - Done: [find element: By.cssSelector: .colorpicker_hex input]
-17:54:28.749 INFO - Executing: [click: 7 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .colorpicker_hex input]])
-17:54:28.836 INFO - Done: [click: 7 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .colorpicker_hex input]]
-17:54:28.840 INFO - Executing: [find element: By.cssSelector: .colorpicker_hex input])
-17:54:28.904 INFO - Done: [find element: By.cssSelector: .colorpicker_hex input]
-17:54:28.938 INFO - Executing: [send keys: 7 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .colorpicker_hex input], [F, F, 0, 0, 9, 9]])
-17:54:29.539 INFO - Done: [send keys: 7 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .colorpicker_hex input], [F, F, 0, 0, 9, 9]]
-17:54:29.557 INFO - Executing: [find element: By.cssSelector: .own-header__top-block])
-17:54:29.704 INFO - Done: [find element: By.cssSelector: .own-header__top-block]
-17:54:29.712 INFO - Executing: [click: 8 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .own-header__top-block]])
-17:54:29.917 INFO - Done: [click: 8 [[ChromeDriver: chrome on LINUX (c674509c76e1e9a89bf76d923465235e)] -> css selector: .own-header__top-block]]
-17:54:29.922 INFO - Executing: [find elements: By.cssSelector: .b-page__menu-and-logo a div[class="b-firm-title__title"]])
-17:54:29.989 INFO - Done: [find elements: By.cssSelector: .b-page__menu-and-logo a div[class="b-firm-title__title"]]
-17:54:30.017 INFO - Executing: [take screenshot])
-17:54:30.864 INFO - Done: [take screenshot]
-17:54:31.154 INFO - Executing: [delete session: 4b74f0d3-397f-4dab-9af8-8739ae8c03e8])
-17:54:31.254 INFO - Done: [delete session: 4b74f0d3-397f-4dab-9af8-8739ae8c03e8]
+11:38:53.158 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Pattern, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+11:38:53.200 INFO - Executing: [get: https://zakupka.com/registration/login/])
+11:38:56.297 INFO - Done: [get: https://zakupka.com/registration/login/]
+11:38:56.306 INFO - Executing: [find element: By.cssSelector: #login_])
+11:38:56.338 INFO - Done: [find element: By.cssSelector: #login_]
+11:38:56.344 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #login_], [A, u, t, o, t, e, s, t, -, M, a, s, t, e, r, @, t, e, s, t, ., c, o, m]])
+11:38:56.541 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #login_], [A, u, t, o, t, e, s, t, -, M, a, s, t, e, r, @, t, e, s, t, ., c, o, m]]
+11:38:56.547 INFO - Executing: [find element: By.cssSelector: #pass_field])
+11:38:56.574 INFO - Done: [find element: By.cssSelector: #pass_field]
+11:38:56.577 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #pass_field], [t, e, s, t]])
+11:38:56.651 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #pass_field], [t, e, s, t]]
+11:38:56.655 INFO - Executing: [find element: By.cssSelector: #submit-login])
+11:38:56.688 INFO - Done: [find element: By.cssSelector: #submit-login]
+11:38:56.695 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #submit-login]])
+11:38:59.691 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #submit-login]]
+11:38:59.700 INFO - Executing: [maximise window])
+11:38:59.813 INFO - Done: [maximise window]
+11:38:59.817 INFO - Executing: [get: https://zakupka.com/cabinet/design/editor/])
+11:39:17.586 INFO - Done: [get: https://zakupka.com/cabinet/design/editor/]
+11:39:17.591 INFO - Executing: [find element: By.cssSelector: #options])
+11:39:17.650 INFO - Done: [find element: By.cssSelector: #options]
+11:39:17.653 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #options]])
+11:39:17.808 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #options]]
+11:39:17.821 INFO - Executing: [find element: By.cssSelector: #mpos_right])
+11:39:17.869 INFO - Done: [find element: By.cssSelector: #mpos_right]
+11:39:17.880 INFO - Executing: [click: 4 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #mpos_right]])
+11:39:18.003 INFO - Done: [click: 4 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #mpos_right]]
+11:39:18.016 INFO - Executing: [find element: By.cssSelector: #save-button])
+11:39:18.081 INFO - Done: [find element: By.cssSelector: #save-button]
+11:39:18.086 INFO - Executing: [click: 5 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #save-button]])
+11:39:18.176 INFO - Done: [click: 5 [[ChromeDriver: chrome on LINUX (081552694291398a1ea1cc247ea60479)] -> css selector: #save-button]]
+11:39:18.181 INFO - Executing: [get: https://testirovanieshablonov.zakupka.com])
+11:39:18.212 INFO - Done: [get: https://testirovanieshablonov.zakupka.com]
+11:39:18.217 INFO - Executing: [accept alert])
+11:39:18.249 INFO - Done: [accept alert]
+11:39:18.272 INFO - Executing: [find elements: By.cssSelector: .b-page__sidebar.b-page__sidebar_position_right])
+11:39:22.367 INFO - Done: [find elements: By.cssSelector: .b-page__sidebar.b-page__sidebar_position_right]
+11:39:22.874 INFO - Executing: [find elements: By.cssSelector: .b-page__sidebar.b-page__sidebar_position_right])
+11:39:22.882 INFO - Done: [find elements: By.cssSelector: .b-page__sidebar.b-page__sidebar_position_right]
+11:39:23.386 INFO - Executing: [find elements: By.cssSelector: .b-page__sidebar.b-page__sidebar_position_right])
+11:39:23.395 INFO - Done: [find elements: By.cssSelector: .b-page__sidebar.b-page__sidebar_position_right]
+11:39:23.400 INFO - Executing: [take screenshot])
+11:39:24.026 INFO - Done: [take screenshot]
+11:39:24.399 INFO - Executing: [delete session: 0713ecfe-4fea-4ca2-9d8d-eb35379490d8])
+11:39:24.494 INFO - Done: [delete session: 0713ecfe-4fea-4ca2-9d8d-eb35379490d8]

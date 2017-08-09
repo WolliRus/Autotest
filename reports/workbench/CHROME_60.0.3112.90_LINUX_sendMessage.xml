@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="workbench.sendMessage"
+    errors="1" failures="1" hostname="" id="" package="workbench" skipped="0"
+    tests="1" time="60.63" timestamp="Wed, 09 Aug 2017 05:38:55 GMT">
+  
+    <testcase name="Написать компании c логином" classname="workbench.sendMessage" time="60.63" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#orders&gt;tbody&gt;tr:first-child&gt;td[field=&quot;subject&quot;]&gt;a&gt; contains text: &quot;Написать компании&quot;. Element could not be located.">    at F.&lt;anonymous&gt; (/home/agent/docs/Autotest/tests_workbench/sendMessage.js:69:20)
+    at F.Perform.command (/home/agent/docs/Autotest/nightwatch/lib/api/client-commands/perform.js:58:14)
+    at Object.commandFn (/home/agent/docs/Autotest/nightwatch/lib/core/api.js:287:24)
+    at AsyncTree.runCommand (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:73:8)
+    at F.onCommandComplete (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:131:12)</failure>
+<system-out>[[ATTACHMENT|/home/agent/docs/Autotest/screens/workbench/sendMessage/Написать-компании-c-логином_ERROR_Aug-09-2017-083956-GMT+0300.png]]</system-out>
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#orders&gt;tbody&gt;tr:first-child&gt;td[field=&quot;subject&quot;]&gt;a&quot; using: css selector
+    at command (/home/agent/docs/Autotest/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at module.exports.BaseAssertion._scheduleAssertion (/home/agent/docs/Autotest/nightwatch/lib/core/assertion.js:87:17)
+    at module.exports.BaseAssertion._executeCommand (/home/agent/docs/Autotest/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/home/agent/docs/Autotest/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.traverse (/home/agent/docs/Autotest/nightwatch/lib/core/queue.js:73:8)
+    at /home/agent/docs/Autotest/nightwatch/lib/core/queue.js:65:10
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

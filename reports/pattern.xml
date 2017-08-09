@@ -5,15 +5,15 @@
 
   <testsuite name="pattern"
     errors="1" failures="0" hostname="" id="" package="pattern" skipped="0"
-    tests="1" time="0.008000" timestamp="Tue, 08 Aug 2017 14:12:06 GMT">
+    tests="1" time="0.007000" timestamp="Wed, 09 Aug 2017 08:05:39 GMT">
   
-    <testcase name="Автотест шаблона. Проверка цвета заголовка" classname="pattern" time="0.008000" assertions="0">
+    <testcase name="Проверяем, что есть поиск" classname="pattern" time="0.007000" assertions="0">
     </testcase>
       <system-err>
-          Error while running [Pattern / Автотест шаблона. Проверка цвета заголовка]:
+          Error while running [Pattern / Проверяем, что есть поиск]:
 
-  TypeError: browser.expect.element(...).to.have.attribute(...).equals(...).click is not a function
-    at Object.module.exports.Автотест шаблона. Проверка цвета заголовка (/home/agent/docs/Autotest/tests/pattern.js:32:4)
+  TypeError: browser.login(...).maximizeWindow(...).url(...).click(...).click(...).click(...).url(...).expect.element(...).to.have.attribute(...).contains(...).url is not a function
+    at Object.module.exports.Проверяем, что есть поиск (/home/agent/docs/Autotest/tests/pattern.js:28:2)
     at Module.call (/home/agent/docs/Autotest/nightwatch/lib/runner/module.js:62:34)
     at /home/agent/docs/Autotest/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/home/agent/docs/Autotest/node_modules/q/q.js:834:54)

@@ -5,9 +5,9 @@
 
   <testsuite name="workbench.timeReport"
     errors="0" failures="0" hostname="" id="" package="workbench" skipped="0"
-    tests="1" time="24.75" timestamp="Tue, 08 Aug 2017 05:35:24 GMT">
+    tests="1" time="31.53" timestamp="Wed, 09 Aug 2017 05:40:03 GMT">
   
-    <testcase name="Автоматическое передвигание времени в Ютреке" classname="workbench.timeReport" time="24.75" assertions="3">
+    <testcase name="Автоматическое передвигание времени в Ютреке" classname="workbench.timeReport" time="31.53" assertions="3">
 
     
 

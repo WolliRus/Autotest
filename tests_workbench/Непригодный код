@@ -1,0 +1,63 @@
+/*
+'Автотест шаблона. Проверка цвета заголовка' : function (browser) {
+browser
+  .login(companyLogin, companyPassword, url)
+  .maximizeWindow()
+  .url(url + '/cabinet/design/editor/')
+  .click('ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]') // кликаем на настройки
+  .click('#titleColor')
+  .waitForElementVisible('.colorpicker_color', 5000,'Вижу выбор цвета')
+  .click('.colorpicker_hex input')
+  .deleteInputContent(10,10)
+  .setValue('.colorpicker_hex input', 'FF0099')
+  // проверяем что в предпросмотре цвет поменялся
+  .click('.own-header__top-block') // кликаем куда-нибудь чтобы ушла палитра
+  // проверяем цвет в предпросмотре
+  browser
+  .click('#save-button')
+ .waitForElementVisible('#cabinet-report-block',5000, "Сохранено!")
+ .url('https://testirovanieshablonov.zakupka.com/')
+ .acceptAlert()
+ .waitForElementPresent('.b-search',5000) // ждем поиск на минисайте
+ browser.expect.element('.b-firm-title__title').to.have.attribute('style').equals('color: rgb(255, 0, 153);')
+browser
+ .url(url + '/cabinet/design/editor/')
+ .click('ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]')
+ .click('.header-colors__col a[onclick="ResetTitleColor();"]') // сбрасываем значение
+ .click('.own-header__top-block')
+ .click('#save-button')
+ .end()
+},
+*/
+
+
+'Автотест шаблона. Проверка цвета заголовка' : function (browser) {
+browser
+
+.maximizeWindow()
+  .url(url + '/cabinet/design/editor/')
+  .login(companyLogin, companyPassword, url)
+  .click('ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]') // кликаем на настройки
+  .click('#titleBGColor')
+  .useXpath()
+  .waitForElementVisible('html/body/div[11]', 5000,'Вижу выбор цвета')
+  .click('html/body/div[11]/div[5]/input')
+  .deleteInputContent(10,10)
+  .setValue('html/body/div[11]/div[5]/input', 'FF0099')
+  .useCss()
+  .click('.own-header__top-block') // кликаем куда-нибудь чтобы ушла палитра
+  .click('#save-button')
+ .waitForElementVisible('#cabinet-report-block',5000, "Сохранено!")
+ .url('https://testirovanieshablonov.zakupka.com/')
+ .acceptAlert()
+ .waitForElementPresent('.b-search',5000) // ждем поиск на минисайте
+ browser.expect.element('.b-firm-title').to.have.attribute('style').equals('background: rgba(255, 0, 153, 0.8);')
+browser
+ .url(url + '/cabinet/design/editor/')
+ .click('ul[class="cabinet-tabs section-tabs"] li[id="design-header-options"]')
+ .click('#remove-bg') // сбрасываем значение
+ .click('.own-header__top-block')
+ .click('#save-button')
+ .end()
+},
+
